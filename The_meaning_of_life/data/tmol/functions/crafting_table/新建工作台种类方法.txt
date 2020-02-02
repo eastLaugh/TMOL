@@ -1,0 +1,7 @@
+若要新建一种工作台
+1.先选择一种未被占用的刷怪蛋
+2.在loot_table中为刷怪蛋写一个战利品表,包含他的nbt,tag为xxx_crafting_table_begin和crafting_table_begin
+2.在change_spawn_egg_into_crafting_table.mcfunction中,检测手持该种类的刷怪蛋,然后替换为loot_table中的
+3.在change_crafting_table_begin_into_crafting_table.mcfunction中,为其添加非通用处理的转换处理,使其在~ ~-0.5 ~的位置生成相对应的,具有xxx_crafting_table和crafting_table_begin的as,并且穿戴刷怪蛋模型
+4.在crafting_table_destroy.mcfunction中,增加他被破坏时的loot spawn处理
+5.为新工作台绘制材质,材质的父类继承自原版工作台,替换的是刷怪蛋的item的model

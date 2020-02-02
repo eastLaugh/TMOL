@@ -1,0 +1,4 @@
+
+function tmol:crafting_table/change_spawn_egg_into_crafting_table
+function tmol:crafting_table/change_crafting_table_begin_into_crafting_table
+function tmol:crafting_table/crafting_table_main

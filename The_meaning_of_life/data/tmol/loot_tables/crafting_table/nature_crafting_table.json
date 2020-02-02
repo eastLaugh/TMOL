@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls":1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:pig_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{EntityTag:{id:'minecraft:armor_stand',Tags:['nature_crafting_table_begin','crafting_table_begin'],Marker:1b,Invisible:1b,Small:1b,NoGravity:1b,Fire:9999s},display:{Name:'{\"translate\":\"item.tmol.nature_crafting_table\"}'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
