@@ -1,0 +1,12 @@
+{
+    "parent": "block/crafting_table",
+    "textures": {
+        "up": "tmol:block/nature_crafting_table_top"
+    },
+    "display": {
+        "head": {
+            "scale": [2.385, 2.385, 2.385],
+            "translation": [0, 3.9, 0]
+        }
+    }
+}
