@@ -5,11 +5,11 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:pig_spawn_egg",
+                    "name": "minecraft:white_dye",
                     "functions": [
                         {
                             "function": "minecraft:set_nbt",
-                            "tag": "{EntityTag:{id:'minecraft:armor_stand',Tags:['nature_crafting_table_begin','crafting_table_begin'],Marker:1b,Invisible:1b,Small:1b,NoGravity:1b},display:{Name:'{\"translate\":\"item.tmol.nature_crafting_table\"}'}}"
+                            "tag": "{CustomModelData:8170001,isBackGround:1b}"
                         }
                     ]
                 }

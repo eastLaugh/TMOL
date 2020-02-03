@@ -5,4 +5,3 @@
 3.在change_crafting_table_begin_into_crafting_table.mcfunction中,为其添加非通用处理的转换处理,使其在~ ~-0.5 ~的位置生成相对应的,具有xxx_crafting_table和crafting_table_begin的as,并且穿戴刷怪蛋模型
 4.在crafting_table_destroy.mcfunction中,增加他被破坏时的loot spawn处理
 5.为新工作台绘制材质,材质的父类继承自原版工作台,替换的是刷怪蛋的item的model
-6.
