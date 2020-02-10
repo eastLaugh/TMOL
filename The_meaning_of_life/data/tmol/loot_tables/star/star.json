@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls":1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:firework_star",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:8170003,display:{Name:'{\"translate\":\"item.tmol.star\"}'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

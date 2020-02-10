@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls":1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:wheat_seeds",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:8171006,crop:'pepper_seed',display:{Name:'{\"translate\":\"item.tmol.pepper_seed\"}'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

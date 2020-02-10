@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "put_furnace": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "item": {
+                    "nbt":"{crop:'pepper_seed'}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "tmol:crop/pepper/set"
+    }
+}

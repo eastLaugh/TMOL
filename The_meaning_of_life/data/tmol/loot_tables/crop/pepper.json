@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls":1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:cookie",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomModelData:8171011,crop:'pepper',display:{Name:'{\"translate\":\"item.tmol.pepper\"}'}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
